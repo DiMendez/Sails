@@ -1,0 +1,15 @@
+<link rel="stylesheet" type="text/css" href="/styles/users.css"/>
+<div id="divus">
+  <% for (user of users) { %>
+    <ul>
+      <li>
+        <a><%= user.nombre %></a>
+      </li>
+      <li>
+        <a><%= user.edad %></a>
+      </li>
+    </ul>
+    <br/><br/>
+  <% } %>
+</div>
+<!--<%=- partial(common/navbar.ejs)%>-->
